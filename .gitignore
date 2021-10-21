@@ -1,0 +1,6 @@
+.vscode
+src/build
+build
+target_sys/versatile*
+target_sys/2019*
+target_sys/kernel*

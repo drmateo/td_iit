@@ -1,0 +1,8 @@
+version: '3.9'
+services:
+  machine:
+    build: build_sys/.
+    image: 'drmateo/tp_iit'
+    volumes:
+      - ./src:/mnt
+    command: tail -F /dev/null
